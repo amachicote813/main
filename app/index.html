@@ -24,52 +24,153 @@
     <!-- endbuild -->
   </head>
   <body>
-    <!--[if IE]>
+     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills float-right">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        <h3 class="text-muted">main</h3>
+ <!--my links and stuff-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
       </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
-      <div class="jumbotron">
-        <h1 class="display-3">'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+  <div class="container">
+    <div class="section">
 
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
 
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
         </div>
       </div>
 
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
       </div>
     </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+            
+
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
